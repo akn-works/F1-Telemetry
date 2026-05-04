@@ -1,12 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import F1Dashboard from "./pages/F1Dashboard";
+import Formula1Dashboard from './components/Formula1Dashboard.jsx';
 
 export default function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<F1Dashboard />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  return <Formula1Dashboard />;
 }
